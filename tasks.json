@@ -1,1 +1,14 @@
-[]
+[
+    {
+        "task":"task1",
+        "done":false
+    },
+    {
+        "task":"task2",
+        "done":false
+    },
+    {
+        "task":"task3",
+        "done":false
+    }
+]
