@@ -13,7 +13,7 @@ function loadTasks() {
     return $data ? json_decode($data, true) : [];
 }
 
-$tasks = loadTasks(); // ✅ FIXED
+$tasks = loadTasks(); 
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if (isset($_POST['task']) && !empty(trim($_POST['task']))) {
